@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import IconButton from "@material-ui/core/IconButton";
-// import MenuIcon from "@material-ui/core/Menu";
 import Gavel from "@material-ui/icons/Gavel";
 import Toolbar from "@material-ui/core/Toolbar";
 
@@ -22,7 +21,11 @@ class Header extends Component {
             <div className="header_logo_title">Personal Trainer</div>
           </div>
 
-          <IconButton aria-label="Menu" color="inherit">
+          <IconButton
+            aria-label="Menu"
+            color="inherit"
+            onClick={() => console.log("open")}
+          >
             <Gavel />
           </IconButton>
         </Toolbar>

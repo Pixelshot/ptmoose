@@ -45,10 +45,12 @@ header .header_logo {
 }
 header .header_logo_name {
   font-size: 40px;
+  color: #fec108;
 }
 
 header .header_logo_title {
   text-transform: uppercase;
+  color: #fec108;
 }
 
 /*====================

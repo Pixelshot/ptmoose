@@ -70,38 +70,54 @@ footer .footer_copyright {
 }
 
 /*====================
-        CARROUSEL
+        CAROUSEL
 ======================*/
 
-.carrousel_wrapper {
+.carousel_wrapper {
   height: 700px;
   overflow: hidden;
 }
 
-.carrousel_image {
+.carousel_image {
   background-size: cover !important;
 }
 
 .artist_name {
+  font-family: "Merienda", cursive;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 160px;
+  width: 500px;
+  height: 30%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 .artist_name .wrapper {
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  /* color: #fec108; */
+  /* text-shadow: 4px 4px 25px rgb(254, 193, 8); */
+  color: #fff;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  font-family: "Merienda", cursive;
   height: 121px;
   margin: 6px;
   text-align: center;
-  color: #fff;
   font-size: 40px;
-  padding: 21px 70px 0px 70px;
+  letter-spacing: 6px;
+  padding: 21px 100px 0px 70px;
   text-transform: uppercase;
+}
+
+.marked_amber {
+  background-color: #fec108;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.marked_red {
+  background-color: red;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
 }
 
 /*====================
